@@ -15,7 +15,7 @@ body {
 .navbar a {
     text-decoration: none;
     color: #fff;
-    margin-left: 5px;
+    margin-left: 2px;
 }
 
 .navbar .dot {
@@ -36,7 +36,10 @@ body {
 
 .navbar .button {
     display: flex;
-    padding: 2px 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-height: normal;
+    padding: 10px 16px;
     align-items: center;
     gap: 50px;
     border-radius: 2px;
@@ -57,4 +60,71 @@ body {
     line-height: 28px;
     gap: 100px;
 
+}
+
+hero .intro {
+    color: #079211;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    margin-left: 100px;
+    margin-top: 85px;
+}
+
+hero .title {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+hero .introline {
+    width: 550px;
+    height: 82px;
+    color: #808080;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+hero .emailme {
+    font-style: normal;
+    font-weight: 500;
+    font-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+hero .emailme .resume {
+    text-decoration: none;
+    color: #808080;
+}
+
+hero .emailbutton {
+    display: flex;
+    background: #079211;
+    padding: 18px 28px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 80px;
+    margin-top: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    border: none;
+}
+
+hero .email {
+    text-decoration: none;
+    color: #fff;
 }
